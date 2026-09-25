@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110">
+  <rect width="1200" height="110" fill="none"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#00ff9f" opacity="0.6"/>
+    </marker>
+  </defs>
+  <!-- boxes -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#00ff9f">
+    <!-- 8 stages, box width ~130, gap ~18 -->
+    <g transform="translate(10,30)">
+      <rect width="128" height="46" rx="6" fill="#0a0f16" stroke="#00ff9f" stroke-opacity="0.5"/>
+      <text x="64" y="28" text-anchor="middle">LEARN</text>
+    </g>
+    <line x1="138" y1="53" x2="164" y2="53" stroke="#00ff9f" stroke-opacity="0.6" marker-end="url(#arrow)"/>
+
+    <g transform="translate(166,30)">
+      <rect width="128" height="46" rx="6" fill="#0a0f16" stroke="#00ff9f" stroke-opacity="0.5"/>
+      <text x="64" y="28" text-anchor="middle">SCOPE</text>
+    </g>
+    <line x1="294" y1="53" x2="320" y2="53" stroke="#00ff9f" stroke-opacity="0.6" marker-end="url(#arrow)"/>
+
+    <g transform="translate(322,30)">
+      <rect width="128" height="46" rx="6" fill="#0a0f16" stroke="#00ff9f" stroke-opacity="0.5"/>
+      <text x="64" y="28" text-anchor="middle">BUILD</text>
+    </g>
+    <line x1="450" y1="53" x2="476" y2="53" stroke="#00ff9f" stroke-opacity="0.6" marker-end="url(#arrow)"/>
+
+    <g transform="translate(478,30)">
+      <rect width="128" height="46" rx="6" fill="#0a0f16" stroke="#00ff9f" stroke-opacity="0.5"/>
+      <text x="64" y="28" text-anchor="middle">TEST</text>
+    </g>
+    <line x1="606" y1="53" x2="632" y2="53" stroke="#00ff9f" stroke-opacity="0.6" marker-end="url(#arrow)"/>
+
+    <g transform="translate(634,30)">
+      <rect width="128" height="46" rx="6" fill="#0a0f16" stroke="#00ff9f" stroke-opacity="0.5"/>
+      <text x="64" y="28" text-anchor="middle">SECURE</text>
+    </g>
+    <line x1="762" y1="53" x2="788" y2="53" stroke="#00ff9f" stroke-opacity="0.6" marker-end="url(#arrow)"/>
+
+    <g transform="translate(790,30)">
+      <rect width="128" height="46" rx="6" fill="#0a0f16" stroke="#00ff9f" stroke-opacity="0.5"/>
+      <text x="64" y="28" text-anchor="middle">DOCUMENT</text>
+    </g>
+    <line x1="918" y1="53" x2="944" y2="53" stroke="#00ff9f" stroke-opacity="0.6" marker-end="url(#arrow)"/>
+
+    <g transform="translate(946,30)">
+      <rect width="118" height="46" rx="6" fill="#0a0f16" stroke="#00ff9f" stroke-opacity="0.5"/>
+      <text x="59" y="28" text-anchor="middle">SHIP</text>
+    </g>
+    <line x1="1064" y1="53" x2="1090" y2="53" stroke="#00ff9f" stroke-opacity="0.6" marker-end="url(#arrow)"/>
+
+    <g transform="translate(1092,30)">
+      <rect width="98" height="46" rx="6" fill="#0a0f16" stroke="#00ff9f" stroke-opacity="0.5"/>
+      <text x="49" y="28" text-anchor="middle" font-size="12">ITERATE</text>
+    </g>
+  </g>
+</svg>

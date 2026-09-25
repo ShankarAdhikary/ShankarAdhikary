@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070a10"/>
+      <stop offset="100%" stop-color="#0a0f16"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#00ff9f" stroke-width="0.4" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="260" rx="10" fill="url(#bg)" stroke="#1a2332" stroke-width="1"/>
+  <rect width="1200" height="260" rx="10" fill="url(#grid)"/>
+
+  <circle cx="26" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="24" r="6" fill="#27c93f"/>
+  <text x="90" y="29" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5a6b7a">shankar@rru:~$</text>
+
+  <text x="40" y="105" font-family="Consolas, 'Courier New', monospace" font-size="46" font-weight="700" fill="#00ff9f" letter-spacing="2">SHANKAR ADHIKARY</text>
+  <text x="40" y="140" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8b98a5">cybersecurity &amp; full-stack &#8212; B.Tech Cybersecurity, RRU'29</text>
+
+  <text x="40" y="178" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#5a6b7a">$ cat focus.txt</text>
+  <text x="40" y="200" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#a78bfa">MERN stack &#183; vulnerability tooling &#183; CTF / TryHackMe &#183; SCA &amp; fuzzing</text>
+
+  <text x="40" y="232" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#3a4a58">_</text>
+</svg>

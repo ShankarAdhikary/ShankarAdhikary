@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 180" width="580" height="180">
+  <rect width="580" height="180" rx="10" fill="#0a0f16" stroke="#1a2332" stroke-width="1"/>
+  <circle cx="24" cy="22" r="5" fill="#ff5f56"/>
+  <circle cx="42" cy="22" r="5" fill="#ffbd2e"/>
+  <circle cx="60" cy="22" r="5" fill="#27c93f"/>
+  <text x="28" y="60" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700" fill="#00ff9f">Cerberus</text>
+  <text x="28" y="86" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#8b98a5">Dependency Vulnerability Gate &#8212; SCA CLI for CI,</text>
+  <text x="28" y="106" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#8b98a5">scanning lockfiles against OSV.dev</text>
+  <text x="28" y="150" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#5a6b7a">$ python -m dep_gate --file requirements.txt</text>
+</svg>
