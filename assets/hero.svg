@@ -208,7 +208,7 @@
   <text x="598" y="320" fill="#8fb6a8">UTC+05:30</text>
   <path d="M716 308 V326" stroke="#1c4a3d"/>
   <path d="M736 311 l5 -4 l5 4 v6 l-5 4 l-5 -4 z" fill="none" stroke="#a78bfa" stroke-width="1.4"/>
-  <text x="754" y="320" fill="#8fb6a8">PROGRAM <tspan fill="#a78bfa">RRU'29</tspan></text>
+  <text x="754" y="320" fill="#8fb6a8">TRACK <tspan fill="#a78bfa">B.TECH'29</tspan></text>
 </g>
 
 <!-- CRT + sweep -->

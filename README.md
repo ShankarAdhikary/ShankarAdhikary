@@ -10,10 +10,10 @@
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=ShankarAdhikary&style=for-the-badge&color=00ff9f&labelColor=05070c&label=PROFILE+VIEWS" alt="Profile views" />
-<a href="https://github.com/ShankarAdhikary?tab=followers"><img src="https://img.shields.io/github/followers/ShankarAdhikary?style=for-the-badge&logo=github&logoColor=00ff9f&label=FOLLOWERS&labelColor=05070c&color=0d1117" alt="Followers" /></a>
+<img src="https://komarev.com/ghpvc/?username=ShankarAdhikary&style=for-the-badge&color=00ff9f&labelColor=05070c&label=RECON+HITS" alt="Profile views" />
+<a href="https://github.com/ShankarAdhikary?tab=followers"><img src="https://img.shields.io/github/followers/ShankarAdhikary?style=for-the-badge&logo=github&logoColor=00ff9f&label=OPERATORS&labelColor=05070c&color=0d1117" alt="Followers" /></a>
 <img src="https://img.shields.io/badge/FOCUS-cybersecurity-ff2e5b?style=for-the-badge&labelColor=05070c" alt="Focus" />
-<img src="https://img.shields.io/badge/STACK-MERN-a78bfa?style=for-the-badge&labelColor=05070c" alt="Stack" />
+<img src="https://img.shields.io/badge/TRACK-B.TECH'29-a78bfa?style=for-the-badge&labelColor=05070c" alt="Track" />
 
 </div>
 
