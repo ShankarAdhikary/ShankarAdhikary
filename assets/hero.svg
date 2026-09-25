@@ -1,26 +1,226 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070a10"/>
-      <stop offset="100%" stop-color="#0a0f16"/>
-    </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#00ff9f" stroke-width="0.4" opacity="0.08"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="260" rx="10" fill="url(#bg)" stroke="#1a2332" stroke-width="1"/>
-  <rect width="1200" height="260" rx="10" fill="url(#grid)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Shankar Adhikary — cybersecurity and full-stack developer">
+<title>Shankar Adhikary :: secure shell banner</title>
 
-  <circle cx="26" cy="24" r="6" fill="#ff5f56"/>
-  <circle cx="46" cy="24" r="6" fill="#ffbd2e"/>
-  <circle cx="66" cy="24" r="6" fill="#27c93f"/>
-  <text x="90" y="29" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5a6b7a">shankar@rru:~$</text>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#03060b"/>
+    <stop offset="0.5" stop-color="#060d16"/>
+    <stop offset="1" stop-color="#02050a"/>
+  </linearGradient>
 
-  <text x="40" y="105" font-family="Consolas, 'Courier New', monospace" font-size="46" font-weight="700" fill="#00ff9f" letter-spacing="2">SHANKAR ADHIKARY</text>
-  <text x="40" y="140" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8b98a5">cybersecurity &amp; full-stack &#8212; B.Tech Cybersecurity, RRU'29</text>
+  <radialGradient id="core" cx="50%" cy="46%" r="62%">
+    <stop offset="0" stop-color="#00ff9f" stop-opacity="0.15"/>
+    <stop offset="0.45" stop-color="#0e7490" stop-opacity="0.06"/>
+    <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
 
-  <text x="40" y="178" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#5a6b7a">$ cat focus.txt</text>
-  <text x="40" y="200" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#a78bfa">MERN stack &#183; vulnerability tooling &#183; CTF / TryHackMe &#183; SCA &amp; fuzzing</text>
+  <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00ff9f" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#7cffd4" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#00ff9f" stop-opacity="0"/>
+  </linearGradient>
 
-  <text x="40" y="232" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#3a4a58">_</text>
+  <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00ff9f" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#00ff9f" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#00ff9f" stop-opacity="0"/>
+  </linearGradient>
+
+  <linearGradient id="fadeY" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="0.22" stop-color="#fff" stop-opacity="0.75"/>
+    <stop offset="0.72" stop-color="#fff" stop-opacity="0.5"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="rainMask"><rect width="1200" height="360" fill="url(#fadeY)"/></mask>
+
+  <pattern id="crt" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#9dfbdb" opacity="0.030"/>
+  </pattern>
+
+  <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="tight" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="2.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <g id="colA" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#00c97e">
+    <text y="0" opacity=".14">4F</text><text y="20" opacity=".18">1A</text>
+    <text y="40" opacity=".22">B7</text><text y="60" opacity=".26">09</text>
+    <text y="80" opacity=".32">E3</text><text y="100" opacity=".38">7C</text>
+    <text y="120" opacity=".45">2D</text><text y="140" opacity=".54">88</text>
+    <text y="160" opacity=".64">A1</text><text y="180" opacity=".74">5E</text>
+    <text y="200" opacity=".86" fill="#5cffc2">30</text><text y="220" opacity="1" fill="#d6fff0">C6</text>
+  </g>
+  <g id="colB" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#00c97e">
+    <text y="0" opacity=".14">D2</text><text y="20" opacity=".18">6B</text>
+    <text y="40" opacity=".22">FF</text><text y="60" opacity=".26">37</text>
+    <text y="80" opacity=".32">90</text><text y="100" opacity=".38">AC</text>
+    <text y="120" opacity=".45">15</text><text y="140" opacity=".54">7E</text>
+    <text y="160" opacity=".64">C3</text><text y="180" opacity=".74">08</text>
+    <text y="200" opacity=".86" fill="#5cffc2">B9</text><text y="220" opacity="1" fill="#d6fff0">42</text>
+  </g>
+  <g id="colC" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#00c97e">
+    <text y="0" opacity=".14">8E</text><text y="20" opacity=".18">33</text>
+    <text y="40" opacity=".22">A0</text><text y="60" opacity=".26">6D</text>
+    <text y="80" opacity=".32">F1</text><text y="100" opacity=".38">24</text>
+    <text y="120" opacity=".45">BB</text><text y="140" opacity=".54">57</text>
+    <text y="160" opacity=".64">0C</text><text y="180" opacity=".74">9A</text>
+    <text y="200" opacity=".86" fill="#5cffc2">E8</text><text y="220" opacity="1" fill="#d6fff0">71</text>
+  </g>
+
+  <style>
+    .mono{font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace}
+    @keyframes gjitter{
+      0%,88%,100%{transform:translate(0,0);opacity:0}
+      89%{transform:translate(-3px,1px);opacity:.85}
+      91%{transform:translate(2px,-1px);opacity:.6}
+      93%{transform:translate(-2px,0);opacity:.8}
+      95%{transform:translate(1px,1px);opacity:.4}
+      97%{transform:translate(0,0);opacity:0}
+    }
+    @keyframes gjitter2{
+      0%,88%,100%{transform:translate(0,0);opacity:0}
+      89.5%{transform:translate(3px,-1px);opacity:.75}
+      92%{transform:translate(-2px,1px);opacity:.55}
+      94%{transform:translate(2px,0);opacity:.7}
+      96%{transform:translate(-1px,-1px);opacity:.35}
+      98%{transform:translate(0,0);opacity:0}
+    }
+    @keyframes nudge{
+      0%,88%,100%{transform:translate(0,0)}
+      90%{transform:translate(1.5px,0)}
+      94%{transform:translate(-1.5px,0)}
+    }
+    .gA{animation:gjitter 7s steps(1,end) infinite}
+    .gB{animation:gjitter2 7s steps(1,end) infinite}
+    .gMain{animation:nudge 7s steps(1,end) infinite}
+  </style>
+</defs>
+
+<rect width="1200" height="360" fill="url(#sky)"/>
+<rect width="1200" height="360" fill="url(#core)"/>
+
+<!-- hex rain -->
+<g mask="url(#rainMask)" class="mono">
+  <use href="#colA" x="42"   y="-240"><animateTransform attributeName="transform" type="translate" values="0,0;0,620" dur="9s"    repeatCount="indefinite"/></use>
+  <use href="#colB" x="112"  y="-420"><animateTransform attributeName="transform" type="translate" values="0,0;0,800" dur="13s"   repeatCount="indefinite"/></use>
+  <use href="#colC" x="182"  y="-300"><animateTransform attributeName="transform" type="translate" values="0,0;0,680" dur="7.5s"  repeatCount="indefinite"/></use>
+  <use href="#colA" x="252"  y="-540"><animateTransform attributeName="transform" type="translate" values="0,0;0,920" dur="15s"   repeatCount="indefinite"/></use>
+  <use href="#colB" x="322"  y="-260"><animateTransform attributeName="transform" type="translate" values="0,0;0,640" dur="10.5s" repeatCount="indefinite"/></use>
+  <use href="#colC" x="392"  y="-460"><animateTransform attributeName="transform" type="translate" values="0,0;0,840" dur="8.2s"  repeatCount="indefinite"/></use>
+  <use href="#colA" x="462"  y="-350"><animateTransform attributeName="transform" type="translate" values="0,0;0,730" dur="12s"   repeatCount="indefinite"/></use>
+  <use href="#colB" x="742"  y="-280"><animateTransform attributeName="transform" type="translate" values="0,0;0,660" dur="9.6s"  repeatCount="indefinite"/></use>
+  <use href="#colC" x="812"  y="-500"><animateTransform attributeName="transform" type="translate" values="0,0;0,880" dur="14s"   repeatCount="indefinite"/></use>
+  <use href="#colA" x="882"  y="-320"><animateTransform attributeName="transform" type="translate" values="0,0;0,700" dur="7.8s"  repeatCount="indefinite"/></use>
+  <use href="#colB" x="952"  y="-600"><animateTransform attributeName="transform" type="translate" values="0,0;0,980" dur="16s"   repeatCount="indefinite"/></use>
+  <use href="#colC" x="1022" y="-240"><animateTransform attributeName="transform" type="translate" values="0,0;0,620" dur="11s"   repeatCount="indefinite"/></use>
+  <use href="#colA" x="1092" y="-430"><animateTransform attributeName="transform" type="translate" values="0,0;0,810" dur="8.8s"  repeatCount="indefinite"/></use>
+  <use href="#colB" x="1152" y="-360"><animateTransform attributeName="transform" type="translate" values="0,0;0,740" dur="12.6s" repeatCount="indefinite"/></use>
+</g>
+
+<!-- perspective floor -->
+<g stroke="#0b6b4c" fill="none">
+  <g opacity="0.30">
+    <path d="M600 252 L-140 360"/><path d="M600 252 L40 360"/><path d="M600 252 L200 360"/>
+    <path d="M600 252 L340 360"/><path d="M600 252 L470 360"/><path d="M600 252 L600 360"/>
+    <path d="M600 252 L730 360"/><path d="M600 252 L860 360"/><path d="M600 252 L1000 360"/>
+    <path d="M600 252 L1160 360"/><path d="M600 252 L1340 360"/>
+  </g>
+  <g opacity="0.34" stroke-width="1">
+    <path d="M0 268 H1200"/><path d="M0 280 H1200"/><path d="M0 296 H1200"/>
+    <path d="M0 316 H1200"/><path d="M0 340 H1200"/>
+  </g>
+</g>
+<rect x="0" y="252" width="1200" height="108" fill="#03060b" opacity="0.45"/>
+
+<!-- top HUD rail -->
+<g class="mono">
+  <path d="M0 34 H1200" stroke="#153a30" stroke-width="1"/>
+  <g fill="#1c5a48">
+    <rect x="24" y="26" width="1" height="8"/><rect x="44" y="28" width="1" height="6"/>
+    <rect x="64" y="26" width="1" height="8"/><rect x="84" y="28" width="1" height="6"/>
+    <rect x="104" y="26" width="1" height="8"/>
+    <rect x="1096" y="26" width="1" height="8"/><rect x="1116" y="28" width="1" height="6"/>
+    <rect x="1136" y="26" width="1" height="8"/><rect x="1156" y="28" width="1" height="6"/>
+    <rect x="1176" y="26" width="1" height="8"/>
+  </g>
+  <text x="140" y="24" font-size="11.5" letter-spacing="2.6" fill="#3f7d6a">SECURE SHELL</text>
+  <text x="272" y="24" font-size="11.5" letter-spacing="2.6" fill="#1f5f4c">//</text>
+  <text x="296" y="24" font-size="11.5" letter-spacing="2.6" fill="#3f7d6a">SESSION 0x4A19</text>
+  <text x="1076" y="24" font-size="11.5" letter-spacing="2.6" fill="#3f7d6a" text-anchor="end">NODE: OMEGA0504</text>
+</g>
+
+<!-- target-lock brackets -->
+<g stroke="#00ff9f" fill="none" stroke-width="2" opacity="0.72">
+  <g><path d="M214 112 L214 92 L262 92"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;-7,-4;0,0" dur="5s" repeatCount="indefinite"/></g>
+  <g><path d="M986 112 L986 92 L938 92"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;7,-4;0,0" dur="5s" repeatCount="indefinite"/></g>
+  <g><path d="M214 196 L214 216 L262 216"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;-7,4;0,0" dur="5s" repeatCount="indefinite"/></g>
+  <g><path d="M986 196 L986 216 L938 216"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;7,4;0,0" dur="5s" repeatCount="indefinite"/></g>
+</g>
+
+<!-- name + glitch -->
+<g class="mono" text-anchor="middle" font-size="66" font-weight="700" letter-spacing="7">
+  <text class="gA" x="600" y="172" fill="#ff2e5b" opacity="0" style="mix-blend-mode:screen">SHANKAR ADHIKARY</text>
+  <text class="gB" x="600" y="172" fill="#22d3ee" opacity="0" style="mix-blend-mode:screen">SHANKAR ADHIKARY</text>
+  <text class="gMain" x="600" y="172" fill="#e9fff7" filter="url(#soft)">SHANKAR ADHIKARY</text>
+</g>
+
+<!-- rotating role line -->
+<g class="mono" text-anchor="middle" font-size="14.5" letter-spacing="4.4" fill="#00ff9f">
+  <text x="600" y="205" opacity="0">CYBERSECURITY STUDENT &#183; FULL-STACK DEVELOPER
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.22;0.245;1" dur="18s" repeatCount="indefinite"/></text>
+  <text x="600" y="205" opacity="0">MERN STACK &#183; VULNERABILITY TOOLING
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.27;0.47;0.495;1" dur="18s" repeatCount="indefinite"/></text>
+  <text x="600" y="205" opacity="0">CTF &#183; TRYHACKME &#183; WRITEUPS
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.52;0.72;0.745;1" dur="18s" repeatCount="indefinite"/></text>
+  <text x="600" y="205" opacity="0">LEARN &#183; BUILD &#183; BREAK &#183; DOCUMENT
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.77;0.98;1" dur="18s" repeatCount="indefinite"/></text>
+</g>
+
+<!-- telemetry trace -->
+<g fill="none">
+  <path d="M180 240 H430 l10 -13 l9 26 l10 -22 l8 9 H620 l9 -17 l10 30 l9 -24 l8 11 H1020" stroke="#0d7a58" stroke-width="1.4" opacity="0.5"/>
+  <path d="M180 240 H430 l10 -13 l9 26 l10 -22 l8 9 H620 l9 -17 l10 30 l9 -24 l8 11 H1020"
+        stroke="#00ff9f" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="70 770" opacity="0.95">
+    <animate attributeName="stroke-dashoffset" values="840;0" dur="4.4s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- status bar -->
+<g class="mono" font-size="12" letter-spacing="2.2">
+  <circle cx="258" cy="316" r="4" fill="#00ff9f">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="272" y="320" fill="#8fb6a8">STATUS <tspan fill="#00ff9f">ACTIVE</tspan></text>
+  <path d="M402 308 V326" stroke="#1c4a3d"/>
+  <rect x="420" y="312" width="8" height="8" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="436" y="320" fill="#8fb6a8">GUJARAT, IN</text>
+  <path d="M566 308 V326" stroke="#1c4a3d"/>
+  <circle cx="586" cy="316" r="4.5" fill="none" stroke="#ffb020" stroke-width="1.5"/>
+  <text x="598" y="320" fill="#8fb6a8">UTC+05:30</text>
+  <path d="M716 308 V326" stroke="#1c4a3d"/>
+  <path d="M736 311 l5 -4 l5 4 v6 l-5 4 l-5 -4 z" fill="none" stroke="#a78bfa" stroke-width="1.4"/>
+  <text x="754" y="320" fill="#8fb6a8">PROGRAM <tspan fill="#a78bfa">RRU'29</tspan></text>
+</g>
+
+<!-- CRT + sweep -->
+<rect width="1200" height="360" fill="url(#crt)"/>
+<rect x="0" y="-110" width="1200" height="110" fill="url(#sweep)">
+  <animate attributeName="y" values="-110;360" dur="6.5s" repeatCount="indefinite"/>
+</rect>
+
+<!-- frame corners -->
+<g stroke="#00ff9f" fill="none" stroke-width="1.6" opacity="0.5">
+  <path d="M14 46 L14 14 L52 14"/><path d="M1186 46 L1186 14 L1148 14"/>
+  <path d="M14 314 L14 346 L52 346"/><path d="M1186 314 L1186 346 L1148 346"/>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="359" fill="none" stroke="#123528" stroke-width="1"/>
 </svg>
