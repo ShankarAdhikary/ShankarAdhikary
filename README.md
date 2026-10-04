@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Shankar Adhikary — cybersecurity and full-stack developer, B.Tech Cybersecurity at RRU" />
+<img src="assets/hero.svg" width="100%" alt="Shankar Adhikary — Offensive Secuirty, B.Tech Cybersecurity at RRU" />
 
 <br>
 
@@ -142,14 +142,13 @@ I'm a B.Tech Cybersecurity student at Rashtriya Raksha University, building tool
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ShankarAdhikary&show_icons=true&hide_border=true&bg_color=0a0f16&title_color=00ff9f&icon_color=00ff9f&text_color=c9d4de&border_color=1a2332" alt="GitHub stats" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShankarAdhikary&layout=compact&hide_border=true&bg_color=0a0f16&title_color=00ff9f&text_color=c9d4de&border_color=1a2332" alt="Top languages" width="42%" />
+<img src="assets/stats.svg" width="100%" alt="GitHub telemetry: repositories, stars earned, followers, commits, pull requests, issues, and language distribution" />
 
 <br>
 
-<img src="https://streak-stats.demolab.com/?user=ShankarAdhikary&hide_border=true&background=0a0f16&ring=00ff9f&fire=00ff9f&currStreakLabel=00ff9f&sideLabels=c9d4de&currStreakNum=c9d4de&sideNums=c9d4de&dates=5a6b7a&border=1a2332" alt="GitHub streak" width="70%" />
+<img src="assets/contributions.svg" width="100%" alt="Contribution grid for the rolling 12-month window with total contributions" />
 
-<br><br>
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShankarAdhikary/ShankarAdhikary/output/github-snake-dark.svg" />
