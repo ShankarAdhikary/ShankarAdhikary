@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img" aria-label="Terminal output describing Shankar Adhikary: handle, role, location, focus, languages and testing mindset">
+<title>whoami --verbose</title>
+
+<defs>
+  <linearGradient id="tbar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0d1622"/><stop offset="1" stop-color="#080f18"/>
+  </linearGradient>
+  <linearGradient id="tbody" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#060b12"/><stop offset="1" stop-color="#04080e"/>
+  </linearGradient>
+  <radialGradient id="tglow" cx="14%" cy="8%" r="70%">
+    <stop offset="0" stop-color="#00ff9f" stop-opacity="0.07"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="crt2" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#9dfbdb" opacity="0.022"/>
+  </pattern>
+
+  <clipPath id="c0"><rect x="70" y="60"  width="0" height="22"><animate attributeName="width" values="0;0;1120;1120" keyTimes="0;0.020;0.075;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c1"><rect x="70" y="85"  width="0" height="22"><animate attributeName="width" values="0;0;1120;1120" keyTimes="0;0.085;0.110;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c2"><rect x="70" y="110" width="0" height="22"><animate attributeName="width" values="0;0;1120;1120" keyTimes="0;0.115;0.155;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c3"><rect x="70" y="135" width="0" height="22"><animate attributeName="width" values="0;0;1120;1120" keyTimes="0;0.160;0.210;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c4"><rect x="70" y="160" width="0" height="22"><animate attributeName="width" values="0;0;1120;1120" keyTimes="0;0.215;0.255;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c5"><rect x="70" y="185" width="0" height="22"><animate attributeName="width" values="0;0;1120;1120" keyTimes="0;0.260;0.310;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c6"><rect x="70" y="210" width="0" height="22"><animate attributeName="width" values="0;0;1120;1120" keyTimes="0;0.315;0.365;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c7"><rect x="70" y="235" width="0" height="22"><animate attributeName="width" values="0;0;1120;1120" keyTimes="0;0.370;0.430;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c8"><rect x="70" y="260" width="0" height="22"><animate attributeName="width" values="0;0;1120;1120" keyTimes="0;0.435;0.470;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c9"><rect x="70" y="290" width="0" height="22"><animate attributeName="width" values="0;0;1120;1120" keyTimes="0;0.480;0.500;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+
+  <style>
+    .m{font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;font-size:14.5px}
+    .k{fill:#22d3ee}.v{fill:#cfe3f0}.s{fill:#ffb020}.p{fill:#00ff9f}.c{fill:#3d6b5c}.w{fill:#eaf6ff}
+  </style>
+</defs>
+
+<rect x="1" y="1" width="1198" height="348" rx="10" fill="url(#tbody)" stroke="#17293a"/>
+<rect x="1" y="1" width="1198" height="348" rx="10" fill="url(#tglow)"/>
+<path d="M1 11 a10 10 0 0 1 10 -10 h1178 a10 10 0 0 1 10 10 v29 h-1198 z" fill="url(#tbar)"/>
+<path d="M1 40 H1199" stroke="#17293a"/>
+
+<g>
+  <circle cx="26" cy="21" r="5.5" fill="#ff2e5b" opacity="0.85"/>
+  <circle cx="46" cy="21" r="5.5" fill="#ffb020" opacity="0.85"/>
+  <circle cx="66" cy="21" r="5.5" fill="#00ff9f" opacity="0.85"/>
+</g>
+<text class="m" x="96" y="26" fill="#4d7a8f" font-size="13">shankar@omega0504</text>
+<text class="m" x="247" y="26" fill="#2a4a5c" font-size="13">:</text>
+<text class="m" x="257" y="26" fill="#22d3ee" font-size="13">~/ops</text>
+<text class="m" x="1176" y="26" fill="#2f5266" font-size="12" text-anchor="end">bash &#8212; 120x24</text>
+
+<!-- gutter -->
+<path d="M52 48 V338" stroke="#101d29"/>
+<g class="m" font-size="11" fill="#1f3a4a" text-anchor="end">
+  <text x="42" y="76">01</text><text x="42" y="101">02</text><text x="42" y="126">03</text>
+  <text x="42" y="151">04</text><text x="42" y="176">05</text><text x="42" y="201">06</text>
+  <text x="42" y="226">07</text><text x="42" y="251">08</text><text x="42" y="276">09</text>
+  <text x="42" y="306">10</text>
+</g>
+
+<g class="m">
+  <text y="76" clip-path="url(#c0)"><tspan x="70" class="p">$</tspan><tspan class="w"> whoami --verbose</tspan></text>
+
+  <text y="101" clip-path="url(#c1)"><tspan x="70" class="c">&#183;&#183; IDENTITY &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</tspan></text>
+
+  <text y="126" clip-path="url(#c2)"><tspan x="70" class="k">handle</tspan><tspan class="c">    :  </tspan><tspan class="v">ShankarAdhikary</tspan><tspan class="c">   &#8226;   </tspan><tspan class="v">Omega0504</tspan></text>
+
+  <text y="151" clip-path="url(#c3)"><tspan x="70" class="k">role</tspan><tspan class="c">      :  </tspan><tspan class="v">Cybersecurity Student</tspan><tspan class="c"> / </tspan><tspan class="v">Full-Stack (MERN) Dev</tspan><tspan class="c"> / </tspan><tspan class="v">CTF Player</tspan></text>
+
+  <text y="176" clip-path="url(#c4)"><tspan x="70" class="k">location</tspan><tspan class="c">  :  </tspan><tspan class="v">RRU, Gujarat, India</tspan><tspan class="c">   &#8226;   </tspan><tspan class="v">UTC+05:30</tspan></text>
+
+  <text y="201" clip-path="url(#c5)"><tspan x="70" class="k">focus</tspan><tspan class="c">     :  </tspan><tspan class="v">B.Tech Cybersecurity (RRU'29), security tooling, MERN stack</tspan></text>
+
+  <text y="226" clip-path="url(#c6)"><tspan x="70" class="k">languages</tspan><tspan class="c"> :  </tspan><tspan class="v">Python, JavaScript, TypeScript, Bash, HTML/CSS</tspan></text>
+
+  <text y="251" clip-path="url(#c7)"><tspan x="70" class="k">mindset</tspan><tspan class="c">   :  </tspan><tspan class="s">"Learn it. Build it. Break it. Document it."</tspan></text>
+
+  <text y="276" clip-path="url(#c8)"><tspan x="70" class="c">&#183;&#183; EOF &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</tspan></text>
+
+  <text y="306" clip-path="url(#c9)"><tspan x="70" class="p">$</tspan></text>
+</g>
+
+<rect x="86" y="292" width="9" height="17" fill="#00ff9f" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;1" keyTimes="0;0.50;0.55;0.60;0.65;0.70;0.75;0.80;0.85;0.90;1" dur="20s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="1" y="1" width="1198" height="348" rx="10" fill="url(#crt2)"/>
+</svg>

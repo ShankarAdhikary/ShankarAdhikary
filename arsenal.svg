@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Capability matrix across web app security, full-stack MERN, scripting and automation, network security, CTF and labs, DevSecOps">
+<title>capability matrix</title>
+<defs>
+  <linearGradient id="am-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#060c13"/><stop offset="1" stop-color="#03070c"/>
+  </linearGradient>
+  <radialGradient id="am-glow" cx="80%" cy="50%" r="48%">
+    <stop offset="0" stop-color="#00ff9f" stop-opacity="0.10"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="am-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M30 0 V30 M0 30 H30" stroke="#0a1720" stroke-width="1" fill="none"/>
+  </pattern>
+  <pattern id="segPat" x="250" y="0" width="24" height="300" patternUnits="userSpaceOnUse">
+    <rect width="19" height="300" fill="#fff"/>
+  </pattern>
+  <mask id="segs"><rect x="250" y="0" width="480" height="300" fill="url(#segPat)"/></mask>
+  <filter id="am-g" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .m{font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace}
+    .lb{font-size:10.5px;letter-spacing:1.4px;fill:#7f9aa8}
+    .ax{font-size:9.5px;letter-spacing:1.5px;fill:#4e7d6d}
+  </style>
+</defs>
+
+<rect width="1200" height="300" rx="10" fill="url(#am-bg)" stroke="#132433"/>
+<rect width="1200" height="300" rx="10" fill="url(#am-grid)" opacity="0.55"/>
+<rect width="1200" height="300" rx="10" fill="url(#am-glow)"/>
+
+<g class="m">
+  <rect x="30" y="26" width="4" height="16" fill="#00ff9f"/>
+  <text x="46" y="39" font-size="13" font-weight="700" letter-spacing="3.4" fill="#eafff6">CAPABILITY MATRIX</text>
+  <text x="278" y="39" font-size="9.5" letter-spacing="2" fill="#37604f">RELATIVE DEPTH BY DOMAIN &#183; SELF-ASSESSED</text>
+  <circle cx="1150" cy="34" r="4" fill="#00ff9f"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="1136" y="38" font-size="9.5" letter-spacing="1.8" fill="#37604f" text-anchor="end">SAMPLING</text>
+</g>
+<path d="M30 54 H1170" stroke="#123528"/>
+
+<!-- segmented bars -->
+<g class="m">
+  <text class="lb" x="48" y="88">WEB APP SECURITY</text>
+  <rect x="250" y="79" width="480" height="11" fill="#0f2229" mask="url(#segs)"/>
+  <rect x="250" y="79" width="0" height="11" fill="#00ff9f" mask="url(#segs)">
+    <animate attributeName="width" values="0;0;331;331" keyTimes="0;0.00;0.30;1" dur="6s" repeatCount="indefinite"/></rect>
+
+  <text class="lb" x="48" y="121">FULL-STACK (MERN)</text>
+  <rect x="250" y="112" width="480" height="11" fill="#0f2229" mask="url(#segs)"/>
+  <rect x="250" y="112" width="0" height="11" fill="#00ff9f" mask="url(#segs)">
+    <animate attributeName="width" values="0;0;379;379" keyTimes="0;0.04;0.34;1" dur="6s" repeatCount="indefinite"/></rect>
+
+  <text class="lb" x="48" y="154">SCRIPTING &#38; AUTOMATION</text>
+  <rect x="250" y="145" width="480" height="11" fill="#0f2229" mask="url(#segs)"/>
+  <rect x="250" y="145" width="0" height="11" fill="#00ff9f" mask="url(#segs)">
+    <animate attributeName="width" values="0;0;331;331" keyTimes="0;0.08;0.38;1" dur="6s" repeatCount="indefinite"/></rect>
+
+  <text class="lb" x="48" y="187">NETWORK SECURITY</text>
+  <rect x="250" y="178" width="480" height="11" fill="#0f2229" mask="url(#segs)"/>
+  <rect x="250" y="178" width="0" height="11" fill="#22d3ee" mask="url(#segs)">
+    <animate attributeName="width" values="0;0;283;283" keyTimes="0;0.12;0.42;1" dur="6s" repeatCount="indefinite"/></rect>
+
+  <text class="lb" x="48" y="220">CTF &#38; LABS</text>
+  <rect x="250" y="211" width="480" height="11" fill="#0f2229" mask="url(#segs)"/>
+  <rect x="250" y="211" width="0" height="11" fill="#ffb020" mask="url(#segs)">
+    <animate attributeName="width" values="0;0;307;307" keyTimes="0;0.16;0.46;1" dur="6s" repeatCount="indefinite"/></rect>
+
+  <text class="lb" x="48" y="253">DEVSECOPS &#38; CI GATES</text>
+  <rect x="250" y="244" width="480" height="11" fill="#0f2229" mask="url(#segs)"/>
+  <rect x="250" y="244" width="0" height="11" fill="#a78bfa" mask="url(#segs)">
+    <animate attributeName="width" values="0;0;259;259" keyTimes="0;0.20;0.50;1" dur="6s" repeatCount="indefinite"/></rect>
+</g>
+
+<path d="M760 66 V276" stroke="#123528" opacity="0.7"/>
+
+<!-- hexagonal radar -->
+<g>
+  <g fill="none" stroke="#14372c" opacity="0.9">
+    <polygon points="975,58 1061.6,108 1061.6,208 975,258 888.4,208 888.4,108"/>
+    <polygon points="975,83 1039.9,120.5 1039.9,195.5 975,233 910.1,195.5 910.1,120.5"/>
+    <polygon points="975,108 1018.3,133 1018.3,183 975,208 931.7,183 931.7,133"/>
+    <polygon points="975,133 996.6,145.5 996.6,170.5 975,183 953.4,170.5 953.4,145.5"/>
+    <path d="M975 158 L975 58 M975 158 L1061.6 108 M975 158 L1061.6 208 M975 158 L975 258 M975 158 L888.4 208 M975 158 L888.4 108"/>
+  </g>
+
+  <g transform="translate(975,158)">
+    <g>
+      <polygon points="0,-70 69.3,-40 60.6,35 0,60 -56.3,32.5 -47.6,-27.5"
+               fill="#00ff9f" fill-opacity="0.14" stroke="#00ff9f" stroke-width="1.8" filter="url(#am-g)"/>
+      <g fill="#d6fff0">
+        <circle cx="0" cy="-70" r="3"/><circle cx="69.3" cy="-40" r="3"/><circle cx="60.6" cy="35" r="3"/>
+        <circle cx="0" cy="60" r="3"/><circle cx="-56.3" cy="32.5" r="3"/><circle cx="-47.6" cy="-27.5" r="3"/>
+      </g>
+      <animateTransform attributeName="transform" type="scale" values="0.05;1;1;0.98;1" keyTimes="0;0.32;0.72;0.86;1" dur="6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g class="m ax">
+    <text x="975" y="46" text-anchor="middle">WEB</text>
+    <text x="1072" y="104">FULL-STACK</text>
+    <text x="1072" y="216">AUTOMATION</text>
+    <text x="975" y="276" text-anchor="middle">NETWORK</text>
+    <text x="878" y="216" text-anchor="end">CTF</text>
+    <text x="878" y="104" text-anchor="end">DEVSECOPS</text>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 250" width="580" height="250" role="img" aria-label="Zero-day-Scanner - authorized-use, coverage-guided fuzzing and vulnerability-research platform">
+<title>Zero-day-Scanner</title>
+<defs>
+  <linearGradient id="hf-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#100d07"/><stop offset="1" stop-color="#06060a"/>
+  </linearGradient>
+  <radialGradient id="hf-glow" cx="80%" cy="52%" r="55%">
+    <stop offset="0" stop-color="#ffb020" stop-opacity="0.12"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="hf-ent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00ff9f"/><stop offset="0.55" stop-color="#ffb020"/><stop offset="1" stop-color="#ff2e5b"/>
+  </linearGradient>
+  <pattern id="hf-grid" width="26" height="26" patternUnits="userSpaceOnUse">
+    <path d="M26 0 V26 M0 26 H26" stroke="#181307" stroke-width="1" fill="none"/>
+  </pattern>
+  <style>
+    .m{font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace}
+    .d{font-size:11px;fill:#9b8f78}
+    .chip{font-size:9px;letter-spacing:1.1px;fill:#ffd88a}
+    .bx{font-size:10px;fill:#d6a44e}
+    .of{font-size:8.5px;fill:#6b5426}
+  </style>
+</defs>
+
+<rect x="1" y="1" width="578" height="248" rx="12" fill="url(#hf-bg)" stroke="#3a2c10"/>
+<rect x="1" y="1" width="578" height="248" rx="12" fill="url(#hf-grid)" opacity="0.6"/>
+<rect x="1" y="1" width="578" height="248" rx="12" fill="url(#hf-glow)"/>
+<rect x="1" y="1" width="5" height="248" rx="2.5" fill="#ffb020" opacity="0.75"/>
+
+<g class="m">
+  <rect x="24" y="20" width="34" height="18" rx="4" fill="#241a06" stroke="#6b5015"/>
+  <text x="41" y="33" font-size="10" font-weight="700" fill="#ffb020" text-anchor="middle">02</text>
+  <circle cx="72" cy="29" r="3.5" fill="#ffb020"><animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+  <text x="84" y="33" font-size="9.5" letter-spacing="1.8" fill="#8a7038">AUTHORIZED-USE &#183; RESEARCH</text>
+
+  <text x="24" y="72" font-size="26" font-weight="700" letter-spacing="1.4" fill="#fff6e4">ZERO-DAY SCANNER</text>
+  <text x="24" y="93" font-size="10" letter-spacing="2.3" fill="#ffb020">COVERAGE-GUIDED FUZZING</text>
+  <path d="M24 104 H352" stroke="#3a2c10"/>
+
+  <text class="d" x="24" y="124">Coverage-guided fuzzing and vulnerability</text>
+  <text class="d" x="24" y="141">research platform for authorized targets.</text>
+  <text class="d" x="24" y="158">Mutates inputs, tracks newly reached code paths</text>
+  <text class="d" x="24" y="175">and surfaces the crashes worth a closer look.</text>
+
+  <g>
+    <rect x="24" y="196" width="59" height="17" rx="3.5" fill="#241a06" stroke="#5a4212"/><text class="chip" x="53.5" y="208" text-anchor="middle">FUZZING</text>
+    <rect x="89" y="196" width="66" height="17" rx="3.5" fill="#241a06" stroke="#5a4212"/><text class="chip" x="122" y="208" text-anchor="middle">COVERAGE</text>
+    <rect x="161" y="196" width="59" height="17" rx="3.5" fill="#241a06" stroke="#5a4212"/><text class="chip" x="190.5" y="208" text-anchor="middle">CRASHES</text>
+    <rect x="226" y="196" width="66" height="17" rx="3.5" fill="#241a06" stroke="#5a4212"/><text class="chip" x="259" y="208" text-anchor="middle">VULN R&amp;D</text>
+  </g>
+
+  <text x="556" y="234" font-size="9.5" letter-spacing="1.6" fill="#6b5426" text-anchor="end">github.com/ShankarAdhikary/Zero-day-Scanner</text>
+</g>
+
+<!-- hex dump -->
+<g>
+  <rect x="376" y="52" width="180" height="150" rx="6" fill="#0a0803" stroke="#3a2c10"/>
+  <path d="M376 72 H556" stroke="#3a2c10"/>
+  <g class="m">
+    <circle cx="388" cy="62" r="3" fill="#8a7038"/>
+    <text x="399" y="66" font-size="8.5" letter-spacing="1.4" fill="#8a7038">FUZZ INPUT</text>
+    <text x="546" y="66" font-size="8.5" font-weight="700" fill="#ffb020" text-anchor="end">MUTATING</text>
+  </g>
+
+  <!-- moving cell cursor -->
+  <rect x="416" y="80" width="19" height="13" fill="#ffb020" opacity="0.20" rx="2">
+    <animate attributeName="x" values="416;436;456;476;496;516;416;436;456" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/>
+    <animate attributeName="y" values="80;80;80;80;80;80;96;96;96" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+
+  <g class="m">
+    <g class="of">
+      <text x="386" y="91">0000</text><text x="386" y="107">0008</text><text x="386" y="123">0010</text>
+      <text x="386" y="139">0018</text><text x="386" y="155">0020</text><text x="386" y="171">0028</text>
+    </g>
+    <g class="bx">
+      <text x="418" y="91" fill="#ffb020">4D</text><text x="438" y="91" fill="#ffb020">5A</text>
+      <text x="458" y="91">90</text><text x="478" y="91">00</text><text x="498" y="91">03</text><text x="518" y="91">00</text>
+
+      <text x="418" y="107">00</text><text x="438" y="107">04</text><text x="458" y="107">00</text>
+      <g><text x="478" y="107" opacity="1">FF<animate attributeName="opacity" values="1;0;0" keyTimes="0;0.334;0.667" calcMode="discrete" dur="2.7s" repeatCount="indefinite"/></text>
+         <text x="478" y="107" opacity="0">A6<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.334;0.667" calcMode="discrete" dur="2.7s" repeatCount="indefinite"/></text>
+         <text x="478" y="107" opacity="0">1C<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.334;0.667" calcMode="discrete" dur="2.7s" repeatCount="indefinite"/></text></g>
+      <text x="498" y="107">FF</text><text x="518" y="107">00</text>
+
+      <text x="418" y="123">B8</text><text x="438" y="123">00</text>
+      <g><text x="458" y="123" opacity="1">00<animate attributeName="opacity" values="1;0;0" keyTimes="0;0.334;0.667" calcMode="discrete" dur="3.4s" repeatCount="indefinite"/></text>
+         <text x="458" y="123" opacity="0">7E<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.334;0.667" calcMode="discrete" dur="3.4s" repeatCount="indefinite"/></text>
+         <text x="458" y="123" opacity="0">D4<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.334;0.667" calcMode="discrete" dur="3.4s" repeatCount="indefinite"/></text></g>
+      <text x="478" y="123">00</text><text x="498" y="123">40</text><text x="518" y="123">00</text>
+
+      <text x="418" y="139">50</text><text x="438" y="139" fill="#00ff9f">45</text><text x="458" y="139">00</text>
+      <text x="478" y="139">00</text>
+      <g><text x="498" y="139" opacity="1">64<animate attributeName="opacity" values="1;0;0" keyTimes="0;0.334;0.667" calcMode="discrete" dur="2.1s" repeatCount="indefinite"/></text>
+         <text x="498" y="139" opacity="0">8B<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.334;0.667" calcMode="discrete" dur="2.1s" repeatCount="indefinite"/></text>
+         <text x="498" y="139" opacity="0">2F<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.334;0.667" calcMode="discrete" dur="2.1s" repeatCount="indefinite"/></text></g>
+      <text x="518" y="139">86</text>
+
+      <text x="418" y="155">0E</text><text x="438" y="155">1F</text><text x="458" y="155">BA</text>
+      <text x="478" y="155">0E</text><text x="498" y="155">00</text>
+      <g><text x="518" y="155" opacity="1">B4<animate attributeName="opacity" values="1;0;0" keyTimes="0;0.334;0.667" calcMode="discrete" dur="3.9s" repeatCount="indefinite"/></text>
+         <text x="518" y="155" opacity="0">09<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.334;0.667" calcMode="discrete" dur="3.9s" repeatCount="indefinite"/></text>
+         <text x="518" y="155" opacity="0">CD<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.334;0.667" calcMode="discrete" dur="3.9s" repeatCount="indefinite"/></text></g>
+
+      <text x="418" y="171">21</text><text x="438" y="171">B8</text><text x="458" y="171">01</text>
+      <text x="478" y="171">4C</text><text x="498" y="171">CD</text><text x="518" y="171">21</text>
+    </g>
+  </g>
+
+  <path d="M376 180 H556" stroke="#3a2c10"/>
+  <g class="m">
+    <text x="386" y="193" font-size="8.5" letter-spacing="1.2" fill="#8a7038">COVERAGE</text>
+    <rect x="440" y="186" width="100" height="6" rx="3" fill="#241a06"/>
+    <rect x="440" y="186" width="0" height="6" rx="3" fill="url(#hf-ent)">
+      <animate attributeName="width" values="14;78;42;92;30;62;14" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="548" y="193" font-size="8.5" font-weight="700" fill="#ffb020" text-anchor="end">68%</text>
+  </g>
+</g>
+</svg>

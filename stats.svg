@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 290" width="1200" height="290" role="img" aria-label="GitHub statistics for adhikaryshankar04: 0 repositories, 0 stars earned, 0 followers, 0 commits in the last year">
+<title>adhikaryshankar04 &#183; github telemetry</title>
+<defs>
+  <linearGradient id="st-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#060c13"/><stop offset="1" stop-color="#03070c"/>
+  </linearGradient>
+  <pattern id="st-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M30 0 V30 M0 30 H30" stroke="#0a1720" stroke-width="1" fill="none"/>
+  </pattern>
+  <clipPath id="st-reveal">
+    <rect x="640" y="118" width="0" height="18">
+      <animate attributeName="width" values="0;510;510" keyTimes="0;0.45;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </clipPath>
+</defs>
+
+<rect width="1200" height="290" rx="10" fill="url(#st-bg)" stroke="#132433"/>
+<rect width="1200" height="290" rx="10" fill="url(#st-grid)" opacity="0.55"/>
+
+<rect x="30" y="26" width="4" height="16" fill="#00ff9f"/>
+<text x="46" y="39" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="13" font-weight="700"
+      letter-spacing="3.4" fill="#eafff6">GITHUB TELEMETRY</text>
+<text x="266" y="39" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="9.5" letter-spacing="2"
+      fill="#37604f">PULLED LIVE FROM THE GITHUB API</text>
+<circle cx="1150" cy="34" r="4" fill="#00ff9f">
+  <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<text x="1136" y="38" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="9.5" letter-spacing="1.8"
+      fill="#37604f" text-anchor="end">SYNCED</text>
+<path d="M30 54 H1170" stroke="#123528"/>
+
+  <g>
+    <rect x="30" y="74" width="180" height="88" rx="8" fill="#08111a" stroke="#14324a"/>
+    <rect x="30" y="74" width="180" height="2.5" rx="1.25" fill="#00ff9f" opacity="0.8"/>
+    <text x="46" y="106" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="9.5"
+          letter-spacing="1.9" fill="#37604f">REPOSITORIES</text>
+    <text x="46" y="142" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="28"
+          font-weight="700" fill="#eafff6">0</text>
+  </g>
+  <g>
+    <rect x="220" y="74" width="180" height="88" rx="8" fill="#08111a" stroke="#14324a"/>
+    <rect x="220" y="74" width="180" height="2.5" rx="1.25" fill="#ffb020" opacity="0.8"/>
+    <text x="236" y="106" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="9.5"
+          letter-spacing="1.9" fill="#37604f">STARS EARNED</text>
+    <text x="236" y="142" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="28"
+          font-weight="700" fill="#eafff6">0</text>
+  </g>
+  <g>
+    <rect x="410" y="74" width="180" height="88" rx="8" fill="#08111a" stroke="#14324a"/>
+    <rect x="410" y="74" width="180" height="2.5" rx="1.25" fill="#22d3ee" opacity="0.8"/>
+    <text x="426" y="106" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="9.5"
+          letter-spacing="1.9" fill="#37604f">FOLLOWERS</text>
+    <text x="426" y="142" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="28"
+          font-weight="700" fill="#eafff6">0</text>
+  </g>
+  <g>
+    <rect x="30" y="172" width="180" height="88" rx="8" fill="#08111a" stroke="#14324a"/>
+    <rect x="30" y="172" width="180" height="2.5" rx="1.25" fill="#00ff9f" opacity="0.8"/>
+    <text x="46" y="204" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="9.5"
+          letter-spacing="1.9" fill="#37604f">COMMITS / YR</text>
+    <text x="46" y="240" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="28"
+          font-weight="700" fill="#eafff6">0</text>
+  </g>
+  <g>
+    <rect x="220" y="172" width="180" height="88" rx="8" fill="#08111a" stroke="#14324a"/>
+    <rect x="220" y="172" width="180" height="2.5" rx="1.25" fill="#a78bfa" opacity="0.8"/>
+    <text x="236" y="204" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="9.5"
+          letter-spacing="1.9" fill="#37604f">PULL REQUESTS</text>
+    <text x="236" y="240" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="28"
+          font-weight="700" fill="#eafff6">0</text>
+  </g>
+  <g>
+    <rect x="410" y="172" width="180" height="88" rx="8" fill="#08111a" stroke="#14324a"/>
+    <rect x="410" y="172" width="180" height="2.5" rx="1.25" fill="#ff2e5b" opacity="0.8"/>
+    <text x="426" y="204" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="9.5"
+          letter-spacing="1.9" fill="#37604f">ISSUES</text>
+    <text x="426" y="240" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="28"
+          font-weight="700" fill="#eafff6">0</text>
+  </g>
+
+<path d="M600 74 V260" stroke="#123528" opacity="0.7"/>
+
+<text x="640" y="98" font-family="ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace" font-size="9.5" letter-spacing="1.9"
+      fill="#37604f">LANGUAGE DISTRIBUTION</text>
+<rect x="640" y="118" width="510" height="18" rx="4" fill="#0f2229"/>
+<g clip-path="url(#st-reveal)">
+
+</g>
+<rect x="640" y="118" width="510" height="18" rx="4" fill="none" stroke="#0a1720"/>
+
+
+</svg>

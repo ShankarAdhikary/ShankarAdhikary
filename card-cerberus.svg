@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 250" width="580" height="250" role="img" aria-label="Cerberus - dependency vulnerability gate, an SCA CLI that scans lockfiles against OSV.dev and fails CI">
+<title>Cerberus</title>
+<defs>
+  <linearGradient id="dr-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#060f15"/><stop offset="1" stop-color="#03080d"/>
+  </linearGradient>
+  <radialGradient id="dr-glow" cx="80%" cy="52%" r="55%">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0.13"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="dr-scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.30"/>
+    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dr-grid" width="26" height="26" patternUnits="userSpaceOnUse">
+    <path d="M26 0 V26 M0 26 H26" stroke="#091620" stroke-width="1" fill="none"/>
+  </pattern>
+  <clipPath id="dr-clip"><rect x="376" y="52" width="180" height="150" rx="6"/></clipPath>
+  <filter id="dr-g" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .m{font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace}
+    .d{font-size:11px;fill:#8399a8}
+    .chip{font-size:9px;letter-spacing:1.1px;fill:#8fe3f5}
+    .q{font-size:9.5px;fill:#2e7d92}
+  </style>
+</defs>
+
+<rect x="1" y="1" width="578" height="248" rx="12" fill="url(#dr-bg)" stroke="#14374a"/>
+<rect x="1" y="1" width="578" height="248" rx="12" fill="url(#dr-grid)" opacity="0.5"/>
+<rect x="1" y="1" width="578" height="248" rx="12" fill="url(#dr-glow)"/>
+<rect x="1" y="1" width="5" height="248" rx="2.5" fill="#22d3ee" opacity="0.75"/>
+
+<g class="m">
+  <rect x="24" y="20" width="34" height="18" rx="4" fill="#06222b" stroke="#1a5a6b"/>
+  <text x="41" y="33" font-size="10" font-weight="700" fill="#22d3ee" text-anchor="middle">01</text>
+  <circle cx="72" cy="29" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="1;0.2;1" dur="1.9s" repeatCount="indefinite"/></circle>
+  <text x="84" y="33" font-size="9.5" letter-spacing="1.8" fill="#3d7183">ON PYPI &#183; CI GATE</text>
+
+  <text x="24" y="72" font-size="26" font-weight="700" letter-spacing="1.4" fill="#eafaff">CERBERUS</text>
+  <text x="24" y="93" font-size="10" letter-spacing="2.3" fill="#22d3ee">DEPENDENCY VULNERABILITY GATE</text>
+  <path d="M24 104 H352" stroke="#123448"/>
+
+  <text class="d" x="24" y="124">Minimal SCA CLI: parses package-lock.json or</text>
+  <text class="d" x="24" y="141">requirements.txt, batch-queries OSV.dev, scores</text>
+  <text class="d" x="24" y="158">each finding by CVSS and fails the CI build when</text>
+  <text class="d" x="24" y="175">anything meets the --fail-on severity threshold.</text>
+
+  <g>
+    <rect x="24" y="196" width="53" height="17" rx="3.5" fill="#06222b" stroke="#15495a"/><text class="chip" x="50.5" y="208" text-anchor="middle">PYTHON</text>
+    <rect x="83" y="196" width="35" height="17" rx="3.5" fill="#06222b" stroke="#15495a"/><text class="chip" x="100.5" y="208" text-anchor="middle">SCA</text>
+    <rect x="124" y="196" width="59" height="17" rx="3.5" fill="#06222b" stroke="#15495a"/><text class="chip" x="153.5" y="208" text-anchor="middle">OSV.DEV</text>
+    <rect x="189" y="196" width="41" height="17" rx="3.5" fill="#06222b" stroke="#15495a"/><text class="chip" x="209.5" y="208" text-anchor="middle">CVSS</text>
+    <rect x="236" y="196" width="47" height="17" rx="3.5" fill="#06222b" stroke="#15495a"/><text class="chip" x="259.5" y="208" text-anchor="middle">CI/CD</text>
+  </g>
+
+  <text x="556" y="234" font-size="9.5" letter-spacing="1.6" fill="#2b6274" text-anchor="end">github.com/ShankarAdhikary/Cerberus</text>
+</g>
+
+<!-- query scanner -->
+<g>
+  <rect x="376" y="52" width="180" height="150" rx="6" fill="#040d13" stroke="#123c4c"/>
+  <path d="M376 72 H556" stroke="#123c4c"/>
+  <g class="m">
+    <circle cx="388" cy="62" r="3" fill="#2e7d92"/>
+    <text x="399" y="66" font-size="8.5" letter-spacing="1.4" fill="#2e7d92">LOCKFILE SCAN</text>
+    <text x="546" y="66" font-size="8.5" fill="#22d3ee" text-anchor="end">OSV.DEV</text>
+  </g>
+
+  <g clip-path="url(#dr-clip)">
+    <rect x="376" y="52" width="180" height="26" fill="url(#dr-scan)">
+      <animate attributeName="y" values="52;186;52" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <g class="m q">
+      <text x="388" y="90">lodash@4.17.15<tspan x="546" text-anchor="end" fill="#ff2e5b">HIGH</tspan></text>
+      <text x="388" y="106">express@4.21.2<tspan x="546" text-anchor="end">ok</tspan></text>
+      <text x="388" y="122">minimist@1.2.5<tspan x="546" text-anchor="end" fill="#ff2e5b">CRIT</tspan></text>
+      <text x="388" y="138">axios@1.7.9<tspan x="546" text-anchor="end">ok</tspan></text>
+      <text x="388" y="154">react@18.3.1<tspan x="546" text-anchor="end">ok</tspan></text>
+      <text x="388" y="170">jsonwebtoken@8.5.1<tspan x="546" text-anchor="end" fill="#ffb020">HIGH</tspan></text>
+      <text x="388" y="186">semver@7.6.3<tspan x="546" text-anchor="end">ok</tspan></text>
+    </g>
+    <g fill="#22d3ee" filter="url(#dr-g)">
+      <rect x="378" y="82" width="3" height="10" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.20;0.28;0.30;1" dur="5.5s" repeatCount="indefinite"/></rect>
+      <rect x="378" y="114" width="3" height="10" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.40;0.42;0.50;0.52;1" dur="5.5s" repeatCount="indefinite"/></rect>
+      <rect x="378" y="162" width="3" height="10" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.68;0.76;0.78;1" dur="5.5s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+
+  <path d="M376 190 H556" stroke="#123c4c"/>
+  <g class="m">
+    <text x="388" y="199" font-size="8.5" letter-spacing="1.2" fill="#2e7d92">GATE --fail-on high</text>
+    <text x="546" y="199" font-size="8.5" font-weight="700" fill="#22d3ee" text-anchor="end">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.4s" repeatCount="indefinite"/>EXIT 1
+    </text>
+  </g>
+</g>
+</svg>

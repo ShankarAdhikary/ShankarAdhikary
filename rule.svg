@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 10" width="1200" height="10" role="img" aria-label="divider">
+<defs>
+  <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00ff9f" stop-opacity="0"/>
+    <stop offset="0.08" stop-color="#0f6b52" stop-opacity="0.9"/>
+    <stop offset="0.92" stop-color="#0f6b52" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#00ff9f" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00ff9f" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#7cffd4" stop-opacity="1"/>
+    <stop offset="1" stop-color="#00ff9f" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="4.4" width="1200" height="1.2" fill="url(#base)"/>
+<rect x="-260" y="3.6" width="260" height="2.8" fill="url(#pulse)" rx="1.4">
+  <animate attributeName="x" values="-260;1200" dur="4.5s" repeatCount="indefinite"/>
+</rect>
+<g fill="#00ff9f" opacity="0.65">
+  <rect x="0" y="2" width="2" height="6"/><rect x="1198" y="2" width="2" height="6"/>
+</g>
+</svg>
