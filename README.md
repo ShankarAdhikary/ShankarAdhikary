@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Shankar Adhikary — Offensive Secuirty, B.Tech Cybersecurity at RRU" />
+<img src="assets/hero.svg" width="100%" alt="Shankar Adhikary — cybersecurity and full-stack developer, B.Tech Cybersecurity at RRU" />
 
 <br>
 
